@@ -1,9 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import HomePage from "@components/HomePage/HomePage";
 
 function App() {
-  return <div>Ecommerse</div>;
+  return (
+    <>
+      <HomePage />
+    </>
+  );
 }
 
 export default App;
